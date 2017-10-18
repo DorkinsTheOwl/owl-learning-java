@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("This is " +
                 "another " +
-                "statement"); // these 3 rows is still one statement, semicolon completes a statement
+                "statement"); // these 3 rows are still one statement, semicolon completes a statement
 
         int anotherVariable = 50; anotherVariable++; // these are 2 statements, but it's best not to put multiple statements in one line
     }

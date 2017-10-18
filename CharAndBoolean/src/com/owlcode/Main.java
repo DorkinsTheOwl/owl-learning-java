@@ -14,5 +14,8 @@ public class Main {
 
         char myChar2 = '\u00AE';
         System.out.println("Unicode output was: " + myChar2);
+
+        char myChar3 = 'a';
+        System.out.println(myChar3);
     }
 }
