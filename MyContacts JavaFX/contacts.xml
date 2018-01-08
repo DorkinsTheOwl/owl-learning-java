@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Tom</first_name>
+	<last_name>Sokolovs</last_name>
+	<phone_number>123</phone_number>
+	<notes>note test</notes>
+</contact>
+<contact>
+	<first_name>Terry</first_name>
+	<last_name>Samson</last_name>
+	<phone_number>321</phone_number>
+	<notes>test not</notes>
+</contact>
+<contact>
+	<first_name>Tony</first_name>
+	<last_name>Balony</last_name>
+	<phone_number>13219</phone_number>
+	<notes>such note</notes>
+</contact>
+</contacts>
