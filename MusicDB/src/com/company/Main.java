@@ -53,9 +53,10 @@ public class Main {
         System.out.println("====================================================");
         datasource.createViewForSongArtists();
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a song title: ");
-        String title = scanner.nextLine();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter a song title: ");
+//        String title = scanner.nextLine();
+        String title = "Go Your Own Way";
 
 //        songArtists = datasource.querySongInfoView("She's on Fire");
         songArtists = datasource.querySongInfoView(title);
@@ -68,6 +69,9 @@ public class Main {
             System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() + ", Album name = " + artist.getAlbumName() +
                     ", Track number = " + artist.getTrack());
         }
+
+        System.out.println("====================================================");
+        datasource.insertSong("Bird Dog", "Everly Brothers", "All-Time Greatest Hits", 7);
 
         datasource.close();
     }
